@@ -33,7 +33,7 @@
 }
 
 .col-6 {
-    width: 49%;
+    width: 50%;
 }
 
 .col-7 {
@@ -77,4 +77,26 @@
 .container {
     width: 70%;
     margin: 0 auto;
+}
+
+.container-80 {
+    width: 75%;
+    margin: 0 auto;
+}
+
+.section-head {
+    text-align: center;
+    padding-bottom: 30px;
+    padding-top: 80px;
+
+    h3 {
+
+        font-family: 'RobotoMedium';
+        font-size: 50px;
+        font-weight: 500;
+        line-height: 59px;
+        letter-spacing: 0px;
+        text-align: center;
+
+    }
 }

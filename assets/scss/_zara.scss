@@ -1,0 +1,45 @@
+.zara-wrapper {
+
+    height: 700px;
+    background-image: url(../images/andrey-zvyagintsev-EQj1ZMpq_VM-unsplash\ 1.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.right {
+    justify-content: flex-end;
+}
+
+.zara-logo {
+    padding-top: 150px;
+}
+
+.zara-col {
+    p {
+        padding-top: 40px;
+        width: 80%;
+        font-family: 'Roboto';
+        font-size: 26px;
+        font-weight: 400;
+        line-height: 40px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: white;
+
+    }
+
+    button {
+        background: #FFFFFF;
+        width: 200px;
+        height: 50px;
+        margin-top: 50px;
+
+        span {
+            font-size: 14px;
+            font-family: 'RobotoMedium';
+            color: black;
+        }
+
+    }
+}

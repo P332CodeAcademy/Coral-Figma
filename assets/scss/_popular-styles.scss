@@ -1,0 +1,44 @@
+.vertical-div {
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    height: 648px;
+    padding: 10px;
+    font-family: 'RobotoMedium';
+    font-size: 42px;
+}
+
+.main-photo {
+    width: 100%;
+    height: 648px;
+    max-height: 648px;
+
+    img {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+.mini-photo-wrapper {
+    width: 100%;
+    height: 100%;
+
+    img {
+        width: 95%;
+        height: 95%;
+    }
+
+    overflow: hidden;
+}
+
+.main-photo {
+    padding-right: 20px;
+}
+
+.mini-photos {
+    height: 648px;
+
+}
+
+.styles-wrapper {
+    height: 100%;
+}
