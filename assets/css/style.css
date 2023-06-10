@@ -498,3 +498,66 @@ header .navigatio-wrapper {
 .inst-img img {
   width: 100%;
 }
+
+#sub-new-input-section {
+  background-color: #F3F4F4;
+}
+
+.sub-new-input-section-wrapper {
+  justify-content: center;
+}
+
+.input-wrapper input {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid #1E2832;
+  width: 700px;
+  padding: 10px;
+  background-color: #F3F4F4;
+  margin-right: 10px;
+}
+.input-wrapper button {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid #1E2832;
+  padding: 10px;
+  background-color: #F3F4F4;
+}
+
+#sub-new-input-section {
+  padding-bottom: 100px;
+}
+
+.footer-wrapper {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.footer-info {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.footer-info p {
+  font-family: "OpenSansRegular";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 25px;
+  text-transform: capitalize;
+  color: rgba(30, 40, 50, 0.75);
+}
+
+.footer-icons a {
+  color: rgba(30, 40, 50, 0.75);
+  padding-right: 30px;
+}
+
+.footer-li {
+  padding-top: 10px;
+}
+
+.footer-section-wrapper-info {
+  width: 90%;
+}

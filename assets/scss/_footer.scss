@@ -1,0 +1,36 @@
+.footer-wrapper {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.footer-info {
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+    p {
+        font-family: 'OpenSansRegular';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 25px;
+        text-transform: capitalize;
+        color: rgba(30, 40, 50, 0.75);
+    }
+
+}
+
+.footer-icons {
+    a {
+        color: rgba(30, 40, 50, 0.75);
+        padding-right: 30px;
+
+    }
+}
+
+.footer-li {
+    padding-top: 10px;
+}
+
+.footer-section-wrapper-info {
+    width: 90%;
+}

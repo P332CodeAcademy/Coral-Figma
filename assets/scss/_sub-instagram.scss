@@ -1,0 +1,38 @@
+#sub-new-input-section {
+    background-color: $secondary-section-color;
+}
+
+.sub-new-input-section-wrapper {
+    justify-content: center;
+
+}
+
+.input-wrapper {
+
+
+    input {
+
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        border-bottom: 1px solid $button-color;
+        width: 700px;
+        padding: 10px;
+        background-color: $secondary-section-color;
+
+        margin-right: 10px;
+    }
+
+    button {
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        border-bottom: 1px solid $button-color;
+        padding: 10px;
+        background-color: $secondary-section-color;
+    }
+}
+
+#sub-new-input-section {
+    padding-bottom: 100px;
+}
