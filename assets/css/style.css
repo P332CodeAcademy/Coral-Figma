@@ -1,0 +1,204 @@
+@font-face {
+  font-family: "RobotoMedium";
+  src: url(../fonts/Roboto/Roboto-Medium.ttf);
+}
+@font-face {
+  font-family: "RobotoRegular";
+  src: url(../fonts/Roboto/Roboto-Regular.ttf);
+}
+@font-face {
+  font-family: "OpenSansRegular";
+  src: url(../fonts/OpenSans/static/OpenSans-Regular.ttf);
+}
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.nonwrap-row {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+}
+
+.column {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.nonwrap-column {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+}
+
+.col-12 {
+  width: 100%;
+}
+
+.col-6 {
+  width: 49%;
+}
+
+.col-7 {
+  width: 57%;
+}
+
+.col-5 {
+  width: 40%;
+}
+
+.col-4 {
+  width: 33%;
+}
+
+.col-2 {
+  width: 16.66%;
+}
+
+.col-10 {
+  width: 83.33%;
+}
+
+.col-8 {
+  width: 66.66%;
+}
+
+.col-3 {
+  width: 25%;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.col-9 {
+  width: 75%;
+}
+
+.container {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.navigatio-wrapper {
+  justify-content: space-between;
+}
+
+.navigatio-wrapper {
+  justify-content: space-between;
+}
+
+.logo-squer {
+  width: 10px;
+  height: 10px;
+  transform: rotate(45deg);
+  border: 0.5px solid black;
+}
+
+.logo-squers {
+  align-items: center;
+  padding: 0px 5px;
+}
+
+header {
+  padding-top: 40px;
+  background: rgba(30, 40, 50, 0.05);
+}
+header .navigatio-wrapper {
+  height: 100%;
+  align-content: center;
+  border-bottom: 1px solid #E3E3E3;
+  padding-bottom: 30px;
+}
+
+.logo-h2 {
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 34px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.categories-list {
+  justify-content: space-between;
+  padding-top: 30px;
+  list-style: none;
+}
+.categories-list a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.navigation-item {
+  padding-left: 15px;
+}
+.navigation-item span {
+  font-family: "RobotoRegular";
+  padding-left: 10px;
+}
+
+#collections {
+  padding-top: 100px;
+  background: rgba(30, 40, 50, 0.05);
+  padding-bottom: 80px;
+}
+
+.collections-info {
+  height: 100%;
+  justify-content: space-around;
+}
+.collections-info h3 {
+  font-size: 74px;
+  font-weight: 100;
+  line-height: 55px;
+  letter-spacing: 0px;
+  text-align: left;
+  font-family: "RobotoRegular";
+}
+.collections-info p {
+  letter-spacing: 0em;
+  text-align: left;
+  font-family: "RobotoRegular";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 55px;
+  text-transform: capitalize;
+}
+.collections-info button {
+  width: 30%;
+  height: 15%;
+  background: #1E2832;
+  color: white;
+}
+.collections-info button span {
+  font-family: "RobotoRegular";
+  padding-left: 10px;
+  font-size: 20px;
+}
+.collections-info button i {
+  font-size: 20px;
+}
+
+.collections-info {
+  width: 80%;
+  padding: 10px 0px;
+}
+
+.collections-image {
+  width: 100%;
+  height: 100%;
+}
+.collections-image img {
+  width: 100%;
+  height: 100%;
+}
