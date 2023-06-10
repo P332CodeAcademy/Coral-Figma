@@ -34,7 +34,7 @@
     button {
         width: 30%;
         height: 15%;
-        background: $button-color;
+        background: $general-dark-blue;
         color: white;
 
         span {
@@ -78,23 +78,16 @@
     align-items: center;
 }
 
-.position-relative {
-    position: relative;
-}
 
-.position-absolute {
-    position: absolute;
-    top: 5%;
-    left: 10%;
-    border: 2px solid rgba(0, 0, 0, 0.25);
-
-}
 
 .z-index-1 {
     z-index: 13333;
 }
 
 .fade {
+    top: 5%;
+    left: 10%;
+    border: 2px solid rgba(0, 0, 0, 0.25);
     border-radius: 160px 0px;
 }
 

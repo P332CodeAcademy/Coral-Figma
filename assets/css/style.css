@@ -108,6 +108,59 @@
   text-align: center;
 }
 
+li {
+  transition: color 0.3s ease;
+}
+li a {
+  transition: color 0.2s ease;
+}
+li a:hover {
+  color: goldenrod !important;
+}
+li:hover {
+  color: goldenrod;
+}
+
+button {
+  border: 0px;
+  transition: background-color 0.3s ease;
+}
+button:hover {
+  background: #FF6F61 !important;
+}
+
+.card-sale-category {
+  display: flex;
+  justify-content: center;
+  color: azure;
+  width: 60px;
+  height: 30px;
+  top: 7%;
+  left: 0%;
+  background-color: #1E2832;
+}
+.card-sale-category span {
+  display: flex;
+  height: 100%;
+  align-items: center;
+}
+
+.position-relative {
+  position: relative;
+}
+
+.position-absolute {
+  position: absolute;
+}
+
+i {
+  transition: color 0.3s ease;
+}
+i:hover {
+  cursor: pointer;
+  color: goldenrod !important;
+}
+
 .navigatio-wrapper {
   justify-content: space-between;
 }
@@ -163,6 +216,10 @@ header .navigatio-wrapper {
 .navigation-item span {
   font-family: "RobotoRegular";
   padding-left: 10px;
+}
+
+.site-logo {
+  left: 42%;
 }
 
 #collections {
@@ -237,22 +294,14 @@ header .navigatio-wrapper {
   align-items: center;
 }
 
-.position-relative {
-  position: relative;
-}
-
-.position-absolute {
-  position: absolute;
-  top: 5%;
-  left: 10%;
-  border: 2px solid rgba(0, 0, 0, 0.25);
-}
-
 .z-index-1 {
   z-index: 13333;
 }
 
 .fade {
+  top: 5%;
+  left: 10%;
+  border: 2px solid rgba(0, 0, 0, 0.25);
   border-radius: 160px 0px;
 }
 
@@ -368,15 +417,17 @@ header .navigatio-wrapper {
 .mini-photo-wrapper {
   width: 100%;
   height: 100%;
+  max-height: 324px;
+  margin-right: 15px;
   overflow: hidden;
 }
 .mini-photo-wrapper img {
-  width: 95%;
-  height: 95%;
+  width: 100%;
+  height: 100%;
 }
 
 .main-photo {
-  padding-right: 20px;
+  margin-right: 15px;
 }
 
 .mini-photos {
@@ -387,7 +438,37 @@ header .navigatio-wrapper {
   height: 100%;
 }
 
+.detail-on-hover {
+  background-color: #1E2832;
+  width: 100%;
+  height: 60px;
+  justify-content: space-between;
+  align-content: center;
+  z-index: 1;
+  bottom: 0%;
+  display: none;
+}
+.detail-on-hover span {
+  align-items: center;
+  color: white;
+  padding: 10px;
+  font-family: "RobotoMedium";
+}
+
+.sub-newsletter-card :hover .detail-on-hover {
+  display: flex;
+}
+
+.mini-photo-wrapper:hover .detail-on-hover {
+  display: flex;
+}
+
+.main-photo:hover .detail-on-hover {
+  display: flex;
+}
+
 #sub-newsletter {
+  padding-top: 100px;
   padding-bottom: 100px;
 }
 

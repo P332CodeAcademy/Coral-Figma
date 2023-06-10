@@ -100,3 +100,65 @@
 
     }
 }
+
+li {
+    transition: color 0.3s ease;
+
+    a {
+        transition: color 0.2s ease;
+
+        &:hover {
+
+            color: goldenrod !important;
+        }
+    }
+
+    &:hover {
+        color: goldenrod;
+    }
+}
+
+button {
+    border: 0px;
+    transition: background-color 0.3s ease;
+
+    &:hover {
+        background: #FF6F61 !important;
+    }
+
+}
+
+.card-sale-category {
+    display: flex;
+    justify-content: center;
+    color: azure;
+    width: 60px;
+    height: 30px;
+    top: 7%;
+    left: 0%;
+    background-color: $general-dark-blue;
+
+    span {
+        display: flex;
+        height: 100%;
+        align-items: center;
+
+    }
+}
+
+.position-relative {
+    position: relative;
+}
+
+.position-absolute {
+    position: absolute;
+}
+
+i {
+    transition: color 0.3s ease;
+
+    &:hover {
+        cursor: pointer;
+        color: goldenrod !important;
+    }
+}
