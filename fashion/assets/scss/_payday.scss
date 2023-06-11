@@ -1,0 +1,50 @@
+#payday {
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+    background-color: $main-yellow;
+}
+
+.payday-image {
+    width: 100%;
+
+    img {
+        width: 100%;
+    }
+}
+
+.payday-wrapper-inner {
+
+    margin-top: 50px;
+
+    h4 {
+        font-family: 'PoppinsBold';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 92px;
+        line-height: 120px;
+
+    }
+
+    p {
+        margin-top: 40px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 48px;
+        letter-spacing: -0.05em;
+    }
+
+    span {
+        display: block;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 48px;
+        letter-spacing: -0.05em;
+    }
+
+    .span-section {
+        margin-top: 40px;
+    }
+}

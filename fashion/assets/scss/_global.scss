@@ -1,0 +1,160 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.nonwrap-row {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+
+.column {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.nonwrap-column {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 57%;
+}
+
+.col-5 {
+    width: 40%;
+}
+
+.col-4 {
+    width: 33%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+
+.container {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.container-80 {
+    width: 75%;
+    margin: 0 auto;
+}
+
+.section-head {
+    text-align: center;
+    padding-bottom: 30px;
+    padding-top: 80px;
+
+    h3 {
+
+        font-family: 'RobotoMedium';
+        font-size: 50px;
+        font-weight: 500;
+        line-height: 59px;
+        letter-spacing: 0px;
+        text-align: center;
+
+    }
+}
+
+.classic-btn {
+
+    border-radius: 5px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 15px;
+    background: #000000;
+    padding: 10px 20px 10px 15px;
+    text-decoration: none;
+
+    &:hover {
+        background: #2b2b2b;
+        text-decoration: none;
+    }
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Poppins';
+}
+
+p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 40px;
+    letter-spacing: 0.02em;
+}
+
+.section-header {
+    padding-bottom: 30px;
+
+}
+
+.section-name {
+    font-family: 'PoppinsBold';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 50px;
+    letter-spacing: 0.06em;
+    color: #000000;
+}
+
+.position-absolute {
+    position: absolute;
+}
+
+.position-relative {
+    position: relative;
+}

@@ -1,0 +1,51 @@
+#join-community {
+    background-color: $main-yellow;
+    padding: 50px 0px;
+}
+
+.text-center {
+    text-align: center;
+
+    h3 {
+        display: flex;
+        justify-content: center;
+
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 55px;
+        line-height: 70px;
+        letter-spacing: 0.03em;
+        color: #FFFFFF;
+    }
+
+    p {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 35px;
+        letter-spacing: 0.03em;
+        color: #FFFCF8;
+        margin-top: 30px;
+    }
+}
+
+.com-input-section {
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.com-input-section {
+    input {
+        height: 60px;
+        width: 30%;
+        border: none;
+    }
+}
+
+.com-btn {
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+}

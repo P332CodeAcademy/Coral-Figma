@@ -1,0 +1,24 @@
+#vendors {
+    height: 150px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+
+    background-color: $main-yellow;
+
+    .container {
+        height: 100%;
+
+        .vendors-wrapper {
+            height: 100%;
+            justify-content: space-around;
+            align-items: center;
+
+            .vendor {
+                background-color: $main-yellow;
+            }
+        }
+    }
+
+
+}
